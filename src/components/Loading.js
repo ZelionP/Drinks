@@ -1,4 +1,8 @@
 const Loading = () =>{
-    return <h1>Loading component</h1>
+    return <div className="loading-wraper">
+        <div className="loading-icon">
+            
+        </div>
+    </div>
 }
 export default Loading

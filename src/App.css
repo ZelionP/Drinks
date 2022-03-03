@@ -2,12 +2,17 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a{
   text-decoration: none;
 }
 ul,ol{
   list-style-type: none;
+}
+img{
+  width: 100%;
+  height: 100%;
 }
 .navbar {
   height: 60px;
@@ -58,6 +63,7 @@ ul,ol{
   background-color: darkolivegreen;
   padding: 5px 30px;
   border-radius: 8px;
+  text-align: center;
 }
 .btn-back-home{
   margin-top: 30px;
@@ -68,4 +74,44 @@ ul,ol{
   max-width: 600px;
   border-bottom: 1px solid darkolivegreen;
   padding-bottom: 20px;
+}
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+.drinks-card{
+  width: 30%;
+  margin-top: 40px;
+  border: 1px solid darkolivegreen;
+  box-shadow:5px 5px 3px darkolivegreen ;
+}
+.img-container{
+  object-fit: cover;
+}
+.drink-body{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 20px;
+  
+}
+.loading-wraper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: centery;
+}
+.loading-icon{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
 }

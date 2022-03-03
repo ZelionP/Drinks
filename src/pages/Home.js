@@ -1,4 +1,10 @@
+import Search from "../components/Search"
+import DrinkList from "../components/DrinkList"
+
 const Home = () => {
-    return <h1>Home</h1>
+    return <section className="section">
+        <Search></Search>
+        <DrinkList></DrinkList>
+    </section>
 }
 export default Home
